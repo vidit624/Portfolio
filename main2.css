@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+.tm-portfolio{
+	background-image: url('img/astro-astronomy-background-956999-min.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: Times New Roman;
+}
+img{
+	max-width: 100%;
+}
+.tm-about{
+	background-image: url('img/4k-wallpaper-calm-waters-dark-1252869-min.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family:'Open Sans', sans-serif;
+}
+.tm-achievement{
+	background-image: url('img/astro-astronomy-background-956999-min.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Courgette', cursive;
+}
+.tm-contact{
+	background-image: url('img/4k-wallpaper-calm-waters-dark-1252869-min.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Gugi', cursive;
+}
+
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+.rounded-cornor{
+	border-radius: 50%;
+	border: 2px solid red;
+	float: left;
+}
+.rounded-cornor:hover{
+	border:2px solid red;
+	height: 25%;
+	width: 25%;
+}
+.tm-container{
+	max-width: 1200px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+.tm-main{
+	overflow: auto;
+	padding-bottom: 10px;
+}
+.tm-nav{
+	float: right;
+}
+.tm-nav ul li{
+	display: inline-block; 
+}
+.tm-nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #dce2e2;
+	font-size: 20px;
+	line-height: 120px;
+}
+.tm-nav ul li a:hover{
+	color: red;
+	font-weight: bold;
+}
+
+.tm-text{
+	padding-top: 10px;
+	font-size: 60px;
+	color: rgba(211, 16, 172,0.75);
+	font-weight: bold;
+}
+.tm-about-section p{
+	padding-top: 10px;
+	font-size: 60px;
+	color: rgba(9, 242, 28,0.85);
+	font-family: 'Sofia', cursive;
+	font-weight: bold;
+}
+.tm-achievement-section p{
+	padding-top: 10px;
+	font-size: 60px;
+	color: rgba(211, 16, 172,0.75);
+	font-family: 'Sofia', cursive;
+	font-weight: bold;
+}
+.tm-contact-section p{
+	padding-top: 10px;
+	font-size: 60px;
+	color: rgba(9, 242, 28,0.85);
+	font-family: 'Sofia', cursive;
+	font-weight: bold;
+}
+.tm-image{
+	border-radius: 50%;
+	margin-top: 10px;
+	border:2px solid #dce2e2 ;
+}
+.tm-image:hover{
+	height: 25%;
+	width: 25%;
+	border:2px solid #dce2e2 ;
+}
+.tm-article{
+	color: white;
+	margin-top: 10px;
+	font-size: 30px;
+}
+.tm-footer{
+	text-align: center;
+	color: white;
+	position: relative;
+	height: 10px;
+	margin-top: -20px;
+	clear: both;
+}
+span:hover{
+	color: red;
+}
+.tm-about-article{
+	margin-top: 10px;
+	border: 2px solid red;
+	max-width: 900px;
+	font-size: 30px;
+	border-radius: 20px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 5px #959ba5;
+}
+.tm-about-article p{
+	color: white;
+	padding-left: 10%;	
+}
+.tm-about-ul{
+	color: white;
+	padding-left: 28%;
+}
+.tm-about-footer{
+	text-align: center;
+	color: white;
+	height: 10px;
+	margin-top: -25px;
+	clear: both;
+}
+.tm-about-ul li:hover{
+	font-size: 31px;
+	color: red;
+}
+.tm-achievement-article{
+	line-height: 90px;
+	border: 2px solid red;
+	max-width: 900px;
+	border-radius: 20px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 5px #959ba5;
+}
+.tm-achievement-article p{
+	color: white;
+	font-size: 30px;
+}
+.tm-achievement-footer{
+	text-align: center;
+	color: white;
+	position: relative;
+	height: 10px;
+	margin-top: -25px;
+	clear: both;
+}
+.tm-contact-ul1{
+	margin-top: 50px;
+	padding-left: 90px;
+}
+.tm-contact-ul1 li{
+	display: inline;
+}
+.tm-contact-ul1 li a{
+	padding: 50px 50px; 
+}
+.tm-contact-img1:hover{
+	height: 8%;
+	width: 8%;
+}
+.tm-contact-ul2{
+	margin-top: 30px;
+	padding-left: 140px;
+	padding-right: 30px;
+}
+.tm-contact-ul2 li{
+	display: block;
+	padding-top: 50px;
+}
+.tm-span{
+	padding-right: 30px;
+	padding-left: 30px;
+	color: white;
+	font-size: 25px;
+}
+.tm-contact-footer{
+	text-align: center;
+	color: white;
+	height: 10px;
+	margin-top: -20px;
+	clear: both;
+}
