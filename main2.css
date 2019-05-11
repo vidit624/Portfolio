@@ -68,6 +68,7 @@ img{
 	display: inline-block; 
 }
 .tm-nav ul li a{
+	display: block;
 	padding: 10px 20px;
 	text-decoration: none;
 	color: #dce2e2;
