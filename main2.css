@@ -12,11 +12,8 @@ html,body{
 	background-repeat: no-repeat;
 	font-family: Times New Roman;
 }
-img{
-	max-width: 100%;
-}
 .tm-about{
-	background-image: url('img/4k-wallpaper-calm-waters-dark-1252869-min.jpg');
+	background-image: url('img/4k-wallpaper-calm-waters-dark-1252869-min-min.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -30,13 +27,15 @@ img{
 	font-family: 'Courgette', cursive;
 }
 .tm-contact{
-	background-image: url('img/4k-wallpaper-calm-waters-dark-1252869-min.jpg');
+	background-image: url('img/4k-wallpaper-calm-waters-dark-1252869-min-min.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	font-family: 'Gugi', cursive;
 }
-
+img{
+	max-width: 100%;
+}
 .tm-header::after{
 	content: " ";
 	clear: both;
