@@ -52,7 +52,7 @@ img{
 	width: 25%;
 }
 .tm-container{
-	max-width: 1200px;
+	width: 85%;
 	margin: 0 auto;
 	min-height: 100%;
 }
@@ -84,6 +84,7 @@ img{
 	font-size: 60px;
 	color: rgba(211, 16, 172,0.75);
 	font-weight: bold;
+	text-shadow: 0px 5px 5px #dce2e2;
 }
 .tm-about-section p{
 	padding-top: 10px;
