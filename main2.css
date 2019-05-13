@@ -48,11 +48,11 @@ img{
 }
 .rounded-cornor:hover{
 	border:2px solid red;
-	height: 25%;
-	width: 25%;
+	height: 23%;
+	width: 23%;
 }
 .tm-container{
-	width: 85%;
+	max-width: 85%;
 	margin: 0 auto;
 	min-height: 100%;
 }
@@ -113,8 +113,8 @@ img{
 	border:2px solid #dce2e2 ;
 }
 .tm-image:hover{
-	height: 25%;
-	width: 25%;
+	height: 23%;
+	width: 23%;
 	border:2px solid #dce2e2 ;
 }
 .tm-article{
